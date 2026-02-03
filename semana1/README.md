@@ -2,11 +2,10 @@
 
 ## Evidencia Técnica
 
-### Ejercicios Resueltos
+- **Ejercicios de clase:** [Agregar descripción aquí]
 
-- **Clase:** [Descripción de ejercicios de clase]
-- **Casa:** [Descripción de ejercicios de casa]
+- **Ejercicios de casa:** [Agregar descripción aquí]
 
-### Código
+## Código
 
-[Enlaces o descripciones del código subido]
+[Agregar enlaces o descripciones de código aquí]
