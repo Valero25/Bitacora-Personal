@@ -1,7 +1,6 @@
 package dosw.bitacora.semana1.streams;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * Ejercicio 5: Dada una lista de transacciones, usar peek para ver cada una, verificar si existe al menos una no aprobada, retornar si el lote es válido
@@ -9,7 +8,7 @@ import java.util.stream.Collectors;
 public class Ejercicio5 {
 
     // Clase Transaction
-    static class Transaction {
+    public static class Transaction {
         String id;
         double amount;
         boolean approved;

@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class Ejercicio4 {
 
     // Clase Usuario
-    static class Usuario {
+    public static class Usuario {
         int id;
         String name;
         int age;

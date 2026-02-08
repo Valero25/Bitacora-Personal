@@ -17,3 +17,4 @@ public class Ejercicio1 {
         System.out.println("Números pares mayores a 10: " + result);
     }
 }
+
