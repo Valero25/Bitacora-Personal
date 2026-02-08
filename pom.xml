@@ -19,4 +19,17 @@
         <!-- Add dependencies as needed -->
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <mainClass>dosw.bitacora.semana3.Semana3</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
