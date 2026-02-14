@@ -1,3 +1,3 @@
-![PitStopCafe](../../../../../../../../PitStopCafe.jpg)
+![PitStopCafe](PitStopCafe.jpg)
 
 
