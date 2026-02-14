@@ -1,25 +1,25 @@
-# 🚀 Bitácora Personal - Desarrollo de Software
+# Bitácora Personal - Desarrollo de Software
 
 > _Un viaje de aprendizaje semana a semana, donde la teoría se convierte en código y los errores se transforman en experiencia._
 
-## 💡 ¿Qué es esto?
+## ¿Qué es esto?
 
 Esta bitácora es mi laboratorio personal de programación: un espacio donde experimento, aprendo y crezco como desarrollador. Cada semana representa un nuevo desafío, desde los fundamentos de programación funcional hasta patrones de diseño avanzados.
 
 No es solo una colección de ejercicios, es un registro vivo de mi evolución como programador, documentando tanto los éxitos como los obstáculos encontrados en el camino.
 
-## 📂 Contenido
+## Contenido
 
-### 🌱 Semana 1: Fundamentos con Streams API
+### Semana 1: Fundamentos con Streams API
 Descubriendo el poder de la programación funcional en Java. De filtrar números pares a construir pipelines completos de transformación de datos.
 
-### 🏗️ Semana 2: Patrones de Diseño y SOLID
+### Semana 2: Patrones de Diseño y SOLID
 Aprendiendo a construir código mantenible y escalable. Factory Method, Adapter, Memento y los principios que todo desarrollador debe conocer.
 
-### 🎯 Semana 3: Patrones Estructurales Avanzados
+### Semana 3: Patrones Estructurales Avanzados
 Dominando Bridge, Composite, Builder y Abstract Factory. Seis ejercicios que demuestran cómo el buen diseño simplifica la complejidad.
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - **Java 11+** - Lenguaje principal
 - **Maven** - Gestión de proyecto y dependencias
@@ -27,15 +27,15 @@ Dominando Bridge, Composite, Builder y Abstract Factory. Seis ejercicios que dem
 - **VS Code** - Entorno de desarrollo
 - **IntelliJ IDEA** - IDE alternativo para desarrollo
 
-## 🎯 Filosofía del Proyecto
+## Filosofía del Proyecto
 
 ```
-💭 Pensar → 💻 Codificar → 🐛 Romper → 🔧 Arreglar → 📚 Documentar → 🔄 Repetir
+Pensar → Codificar → Romper → Arreglar → Documentar → Repetir
 ```
 
 Este repositorio celebra el proceso de aprendizaje completo, no solo el resultado final. Cada commit es un paso adelante, cada error es una lección aprendida.
 
-## 📖 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 src/main/java/dosw/bitacora/
@@ -45,12 +45,12 @@ src/main/java/dosw/bitacora/
 ```
 
 Cada carpeta semanal incluye su propio README con:
-- ✅ Ejercicios completados
-- ⚠️ Complicaciones encontradas  
-- 💡 Soluciones aplicadas
-- 🎓 Aprendizajes clave
+- Ejercicios completados
+- Complicaciones encontradas  
+- Soluciones aplicadas
+- Aprendizajes clave
 
-## 🔄 Workflow
+## Workflow
 
 Siguiendo GitFlow para mantener un desarrollo organizado:
 
@@ -59,7 +59,7 @@ Siguiendo GitFlow para mantener un desarrollo organizado:
 3. **READMEs actualizados** documentando el viaje de aprendizaje
 4. **Merge a develop** al completar cada semana
 
-## 🚦 Cómo Ejecutar
+## Cómo Ejecutar
 
 ```bash
 # Compilar el proyecto
@@ -69,7 +69,7 @@ mvn compile
 java -cp target/classes dosw.bitacora.semana3.patrones.ejercicio1.Ejercicio1
 ```
 
-## 🌟 Lo que hace especial este proyecto
+## Lo que hace especial este proyecto
 
 - **Documentación honesta**: No solo código perfecto, sino el proceso real de aprendizaje
 - **Progresión visible**: De conceptos básicos a patrones avanzados
