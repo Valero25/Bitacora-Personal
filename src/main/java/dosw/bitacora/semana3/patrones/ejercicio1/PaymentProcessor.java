@@ -1,8 +1,9 @@
 package dosw.bitacora.semana3.patrones.ejercicio1;
 
 /**
- * Clase abstracta PaymentProcessor - Patrón Bridge
- * Separa la abstracción del procesador de la implementación del pago
+ * PaymentProcessor - Creador abstracto del patrón Factory Method
+ * Define el método fábrica createPayment() que las subclases implementan
+ * para crear el tipo concreto de pago sin acoplar el proceso al tipo específico
  */
 public abstract class PaymentProcessor {
     protected Payment payment;

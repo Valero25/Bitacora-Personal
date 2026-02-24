@@ -1,11 +1,14 @@
 package dosw.bitacora.semana3.patrones.ejercicio1;
 
 /**
- * Ejercicio 1: Sistema de procesamiento de pagos
+ * Ejercicio 1: Sistema de procesamiento de pagos - Patrón Factory Method
  * 
- * Patrones utilizados:
- * - Bridge Pattern: Separa la abstracción (PaymentProcessor) de la implementación (Payment)
- * - Factory Method: Cada procesador crea su tipo específico de pago
+ * Patrón Factory Method - Comercio electrónico
+ * 
+ * PaymentProcessor es el creador abstracto con el factory method createPayment().
+ * Cada subclase (CreditCardProcessor, PaypalProcessor, BankTransferProcessor)
+ * decide qué tipo concreto de Payment instanciar, sin que el cliente conozca
+ * la implementación específica.
  * 
  * Ventajas:
  * - El sistema no está acoplado a clases concretas de pagos
