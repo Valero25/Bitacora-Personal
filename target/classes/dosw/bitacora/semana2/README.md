@@ -1,4 +1,4 @@
-# Semana 2
+﻿# Semana 2
 - **Ejercicios de casa:** [Agregar descripción aquí]
 [Agregar enlaces o descripciones de código aquí]
 

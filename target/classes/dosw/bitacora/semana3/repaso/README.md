@@ -1,4 +1,4 @@
-# Repaso Parcial — Patrones de Diseño (Semana 3)
+﻿# Repaso Parcial  Patrones de Diseño (Semana 3)
 
 Carpeta de referencia rápida con ejemplos mínimos de los **11 patrones** vistos en semana 3,  
 más **3 combinaciones** frecuentes en proyectos reales.
@@ -9,22 +9,22 @@ más **3 combinaciones** frecuentes en proyectos reales.
 
 ```
 repaso/
-├── base/
-│   ├── factorymethod/        Patrón 1 – Factory Method
-│   ├── abstractfactory/      Patrón 2 – Abstract Factory
-│   ├── builder/              Patrón 3 – Builder
-│   ├── adapter/              Patrón 4 – Adapter
-│   ├── bridge/               Patrón 5 – Bridge
-│   ├── composite/            Patrón 6 – Composite
-│   ├── decorator/            Patrón 7 – Decorator
-│   ├── chainofresponsibility/ Patrón 8 – Chain of Responsibility
-│   ├── command/              Patrón 9 – Command
-│   ├── iterator/             Patrón 10 – Iterator
-│   └── strategy/             Patrón 11 – Strategy
-└── combinaciones/
-    ├── combo1/               Factory Method + Strategy
-    ├── combo2/               Builder + Decorator
-    └── combo3/               Command + Iterator
+ base/
+    factorymethod/        Patrón 1  Factory Method
+    abstractfactory/      Patrón 2  Abstract Factory
+    builder/              Patrón 3  Builder
+    adapter/              Patrón 4  Adapter
+    bridge/               Patrón 5  Bridge
+    composite/            Patrón 6  Composite
+    decorator/            Patrón 7  Decorator
+    chainofresponsibility/ Patrón 8  Chain of Responsibility
+    command/              Patrón 9  Command
+    iterator/             Patrón 10  Iterator
+    strategy/             Patrón 11  Strategy
+ combinaciones/
+     combo1/               Factory Method + Strategy
+     combo2/               Builder + Decorator
+     combo3/               Command + Iterator
 ```
 
 ---
@@ -37,11 +37,11 @@ repaso/
 **Estructura mínima:**
 ```
 Notificacion (interfaz producto)
-├── NotificacionEmail
-└── NotificacionSMS
-Notificador (clase abstracta — creator con crearNotificacion())
-├── NotificadorEmail
-└── NotificadorSMS
+ NotificacionEmail
+ NotificacionSMS
+Notificador (clase abstracta  creator con crearNotificacion())
+ NotificadorEmail
+ NotificadorSMS
 ```
 
 **Clave:** El método `crearNotificacion()` es el Factory Method. La subclase decide qué objeto producir.
@@ -54,8 +54,8 @@ Notificador (clase abstracta — creator con crearNotificacion())
 **Estructura mínima:**
 ```
 FabricaMuebles (interfaz fábrica abstracta)
-├── FabricaModerna  → SillaModerna, MesaModerna
-└── FabricaVictoriana → SillaVictoriana, MesaVictoriana
+ FabricaModerna   SillaModerna, MesaModerna
+ FabricaVictoriana  SillaVictoriana, MesaVictoriana
 Silla / Mesa (interfaces de producto)
 ```
 
@@ -70,9 +70,9 @@ Silla / Mesa (interfaces de producto)
 ```
 Computadora (producto final)
 ComputadoraBuilder (builder con métodos encadenables)
-├── ComputadoraGaming
-└── ComputadoraOficina
-Ensamblador (director — opcional, organiza los pasos)
+ ComputadoraGaming
+ ComputadoraOficina
+Ensamblador (director  opcional, organiza los pasos)
 ```
 
 **Clave:** El Builder retorna `this` en cada método para encadenamiento fluido; `build()` entrega el objeto.
@@ -87,7 +87,7 @@ Ensamblador (director — opcional, organiza los pasos)
 Reproductor (interfaz objetivo)
 ReproductorLegacy (clase existente incompatible)
 ReproductorAdapter implements Reproductor
-  └── delega a ReproductorLegacy
+   delega a ReproductorLegacy
 ```
 
 **Clave:** El Adapter traduce llamadas de la interfaz nueva a la antigua.
@@ -99,12 +99,12 @@ ReproductorAdapter implements Reproductor
 
 **Estructura mínima:**
 ```
-Renderer (implementación — interfaz)
-├── RendererVectorial
-└── RendererRaster
-Forma (abstracción — tiene un Renderer)
-├── Circulo
-└── Cuadrado
+Renderer (implementación  interfaz)
+ RendererVectorial
+ RendererRaster
+Forma (abstracción  tiene un Renderer)
+ Circulo
+ Cuadrado
 ```
 
 **Clave:** La abstracción (`Forma`) tiene una referencia al `Renderer`; no hereda de él.
@@ -117,8 +117,8 @@ Forma (abstracción — tiene un Renderer)
 **Estructura mínima:**
 ```
 Componente (interfaz común)
-├── Archivo   (hoja — sin hijos)
-└── Carpeta   (nodo — contiene Componentes)
+ Archivo   (hoja  sin hijos)
+ Carpeta   (nodo  contiene Componentes)
 ```
 
 **Clave:** `Carpeta.mostrar()` itera sus hijos y llama `mostrar()` en cada uno, recursivamente.
@@ -132,9 +132,9 @@ Componente (interfaz común)
 ```
 Cafe (interfaz)
 CafeSimple (componente concreto)
-CafeDecorador (decorador base — implementa Cafe y tiene un Cafe)
-├── Leche
-└── Caramelo
+CafeDecorador (decorador base  implementa Cafe y tiene un Cafe)
+ Leche
+ Caramelo
 ```
 
 **Clave:** El decorador envuelve (`wraps`) al componente y añade comportamiento antes/después.
@@ -147,10 +147,10 @@ CafeDecorador (decorador base — implementa Cafe y tiene un Cafe)
 **Estructura mínima:**
 ```
 Aprobador (interfaz handler)
-AprobadorBase (handler abstracto — guarda referencia al siguiente)
-├── Supervisor   (aprueba ≤ $500)
-├── Gerente      (aprueba ≤ $5000)
-└── Director     (aprueba todo)
+AprobadorBase (handler abstracto  guarda referencia al siguiente)
+ Supervisor   (aprueba  $500)
+ Gerente      (aprueba  $5000)
+ Director     (aprueba todo)
 ```
 
 **Clave:** `setSiguiente()` conecta los eslabones; `pasarAlSiguiente()` propaga la solicitud.
@@ -162,11 +162,11 @@ AprobadorBase (handler abstracto — guarda referencia al siguiente)
 
 **Estructura mínima:**
 ```
-Comando (interfaz — ejecutar())
-Luz (receptor — sabe cómo hacer el trabajo)
-├── EncenderLuz implements Comando
-└── ApagarLuz   implements Comando
-ControlRemoto (invocador — presiona comandos sin saber qué hacen)
+Comando (interfaz  ejecutar())
+Luz (receptor  sabe cómo hacer el trabajo)
+ EncenderLuz implements Comando
+ ApagarLuz   implements Comando
+ControlRemoto (invocador  presiona comandos sin saber qué hacen)
 ```
 
 **Clave:** El invocador solo conoce la interfaz `Comando`, no las clases concretas ni el receptor.
@@ -178,8 +178,8 @@ ControlRemoto (invocador — presiona comandos sin saber qué hacen)
 
 **Estructura mínima:**
 ```
-Iterador<T> (interfaz — hasNext(), next())
-Coleccion<T> (interfaz — crearIterador())
+Iterador<T> (interfaz  hasNext(), next())
+Coleccion<T> (interfaz  crearIterador())
 ListaNumeros implements Coleccion<Integer>
 NumerosIterador implements Iterador<Integer>
 ```
@@ -193,10 +193,10 @@ NumerosIterador implements Iterador<Integer>
 
 **Estructura mínima:**
 ```
-Ordenamiento (estrategia — ordenar(int[]))
-├── OrdenamientoBurbuja
-└── OrdenamientoQuick
-Sorter (contexto — tiene un Ordenamiento, setEstrategia() en runtime)
+Ordenamiento (estrategia  ordenar(int[]))
+ OrdenamientoBurbuja
+ OrdenamientoQuick
+Sorter (contexto  tiene un Ordenamiento, setEstrategia() en runtime)
 ```
 
 **Clave:** El contexto delega la ejecución a la estrategia; se puede cambiar en tiempo de ejecución.
@@ -205,57 +205,57 @@ Sorter (contexto — tiene un Ordenamiento, setEstrategia() en runtime)
 
 ## Combinaciones
 
-### Combo 1 — Factory Method + Strategy
-**¿Por qué juntos?**  
-Factory Method crea el objeto correcto → Strategy define qué hace ese objeto.  
+### Combo 1  Factory Method + Strategy
+**Por qué juntos?**  
+Factory Method crea el objeto correcto  Strategy define qué hace ese objeto.  
 Útil cuando el algoritmo a usar depende de qué tipo de objeto se creó.
 
-**Ejemplo:** App de navegación — `BiciCreador` produce `RutaBici`; `AutoCreador` produce `RutaAuto`.  
+**Ejemplo:** App de navegación  `BiciCreador` produce `RutaBici`; `AutoCreador` produce `RutaAuto`.  
 El método `navegar()` usa el Factory Method internamente y luego ejecuta la Strategy.
 
 ```
-TransporteCreador (abstract — Factory Method: crearEstrategia())
-├── AutoCreador  → RutaAuto  implements TransporteStrategy
-├── BiciCreador  → RutaBici
-└── BusCreador   → RutaBus
+TransporteCreador (abstract  Factory Method: crearEstrategia())
+ AutoCreador   RutaAuto  implements TransporteStrategy
+ BiciCreador   RutaBici
+ BusCreador    RutaBus
 ```
 
 **Punto de unión:** `crearEstrategia()` es Factory Method; `calcularRuta()` es Strategy.
 
 ---
 
-### Combo 2 — Builder + Decorator
-**¿Por qué juntos?**  
-Builder crea el objeto base con sus atributos esenciales → Decorator agrega características opcionales sin tocar la clase base.  
+### Combo 2  Builder + Decorator
+**Por qué juntos?**  
+Builder crea el objeto base con sus atributos esenciales  Decorator agrega características opcionales sin tocar la clase base.  
 Evita la explosión de subclases para cada combinación de opciones.
 
-**Ejemplo:** Pizzería — `PizzaBuilder` construye la pizza base (`tamano`, `masa`, `salsa`),  
+**Ejemplo:** Pizzería  `PizzaBuilder` construye la pizza base (`tamano`, `masa`, `salsa`),  
 luego `ToppingQueso` y `ToppingJamon` la decoran dinámicamente.
 
 ```
-PizzaBuilder → PizzaBase implements Pizza
+PizzaBuilder  PizzaBase implements Pizza
 ToppingDecorador (abstract, implements Pizza, tiene un Pizza)
-├── ToppingQueso
-└── ToppingJamon
+ ToppingQueso
+ ToppingJamon
 ```
 
 **Punto de unión:** Builder produce el componente base que el Decorator envuelve.
 
 ---
 
-### Combo 3 — Command + Iterator
-**¿Por qué juntos?**  
-Command convierte acciones en objetos almacenables → Iterator recorre esos objetos para ejecutarlos en orden.  
+### Combo 3  Command + Iterator
+**Por qué juntos?**  
+Command convierte acciones en objetos almacenables  Iterator recorre esos objetos para ejecutarlos en orden.  
 Patrón clásico para macros, replay de acciones o sistemas de undo-redo.
 
-**Ejemplo:** Editor de texto — `MacroGrabador` almacena `EscribirAccion` y `BorrarAccion` (Commands).  
+**Ejemplo:** Editor de texto  `MacroGrabador` almacena `EscribirAccion` y `BorrarAccion` (Commands).  
 `HistorialIterador` recorre la lista y ejecuta cada acción en secuencia.
 
 ```
-Accion (Command interface — ejecutar())
-├── EscribirAccion
-└── BorrarAccion
-MacroGrabador (invocador — graba y expone iterador)
+Accion (Command interface  ejecutar())
+ EscribirAccion
+ BorrarAccion
+MacroGrabador (invocador  graba y expone iterador)
 HistorialIterador implements IteradorAcciones
 ```
 

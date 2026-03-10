@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+﻿<<<<<<< HEAD
 # Semana 2
 - **Ejercicios de casa:** [Agregar descripción aquí]
 [Agregar enlaces o descripciones de código aquí]
@@ -9,9 +9,9 @@
 
 ## Evidencia Técnica
 =======
-# 📚 Semana 2
+#  Semana 2
 
-## ✅ Ejercicios Completados
+##  Ejercicios Completados
 
 ### Patrones de Diseño
 
@@ -57,7 +57,7 @@
 
 ---
 
-## ⚠️ Complicaciones
+##  Complicaciones
 
 ### 1. Traducir Teoría a Código
 **Problema:** Poder pasar la teoría a código.
@@ -76,7 +76,7 @@
 
 ---
 
-## 💡 Soluciones
+##  Soluciones
 
 ### Clases Separadas
 Reorganizamos todos los ejercicios para usar clases independientes en lugar de clases internas:
@@ -113,7 +113,7 @@ Creamos ejercicios adicionales con:
 
 ---
 
-## 🎓 Aprendizajes
+##  Aprendizajes
 
 ### Patrones de Diseño
 
