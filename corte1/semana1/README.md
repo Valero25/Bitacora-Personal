@@ -1,6 +1,6 @@
-﻿#  Semana 1
+﻿# Semana 1
 
-##  Ejercicios Completados
+## Ejercicios Completados
 
 ### Ejercicio 1: Filtrado de Números Pares
 - **Tema:** Streams API - Operación `filter()`
@@ -34,7 +34,7 @@
 
 ---
 
-##  Complicaciones
+## Complicaciones
 
 ### 1. Estructura del Proyecto
 **Problema:** Dificultad para establecer la estructura adecuada de la bitácora tanto localmente como en GitHub.
@@ -58,7 +58,7 @@
 
 ---
 
-##  Soluciones
+## Soluciones
 
 ### Colaboración y Apoyo
 - **Compañeros de clase:** Colaboración para resolver problemas de estructura y organización
@@ -77,7 +77,7 @@
 
 ---
 
-##  Aprendizajes
+## Aprendizajes
 
 ### Streams API de Java
 
@@ -134,6 +134,6 @@
 
 ---
 
-##  Reflexión Final
+## Reflexión Final
 
 La Semana 1 representó una introducción fundamental a herramientas y conceptos esenciales para el desarrollo de software moderno. Aunque hubo múltiples desafíos técnicos, la combinación de colaboración, recursos en línea y herramientas de IA permitió superarlos exitosamente. El aprendizaje de Streams API estableció las bases para programación funcional en Java, mientras que Git/GitHub y Maven se convirtieron en herramientas indispensables para el resto del curso.

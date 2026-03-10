@@ -1,19 +1,6 @@
-﻿<<<<<<< HEAD
-# Semana 3
+﻿# Semana 3
 
-## Evidencia Técnica
-
-- **Ejercicios de clase:** [Agregar descripción aquí]
-
-- **Ejercicios de casa:** [Agregar descripción aquí]
-
-## Código
-
-[Agregar enlaces o descripciones de código aquí]
-=======
-#  Semana 3
-
-##  Ejercicios Completados
+## Ejercicios Completados
 
 ### Ejercicio 1: Sistema de Procesamiento de Pagos
 - **Patrón:** Factory Method
@@ -83,7 +70,7 @@
 
 ---
 
-##  Complicaciones
+## Complicaciones
 
 ### 1. Complejidad del Patrón Bridge
 **Problema:** Entender la diferencia entre abstracción e implementación y cómo separarlas correctamente.
@@ -112,7 +99,7 @@
 
 ---
 
-##  Soluciones
+## Soluciones
 
 ### Separación Bridge
 - **Abstracción:** Características que pueden evolucionar (Formas)
@@ -142,7 +129,7 @@
 
 ---
 
-##  Aprendizajes
+## Aprendizajes
 
 ### Patrones Estructurales
 1. **Bridge:** Evita explosión de clases al separar abstracción de implementación
@@ -183,11 +170,10 @@
 
 ---
 
-##  Estadísticas
+## Estadísticas
 
 - **Total de ejercicios:** 11
 - **Total de clases creadas:** 84
 - **Patrones implementados:** 11 diferentes
 - **Líneas de código:** ~1500+
 - **Tiempo estimado:** 12-15 horas
->>>>>>> origin/master

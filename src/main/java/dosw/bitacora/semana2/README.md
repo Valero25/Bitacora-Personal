@@ -1,17 +1,6 @@
-﻿<<<<<<< HEAD
-# Semana 2
-- **Ejercicios de casa:** [Agregar descripción aquí]
-[Agregar enlaces o descripciones de código aquí]
+﻿# Semana 2
 
-## Código
-
-- **Ejercicios de clase:** [Agregar descripción aquí]
-
-## Evidencia Técnica
-=======
-#  Semana 2
-
-##  Ejercicios Completados
+## Ejercicios Completados
 
 ### Patrones de Diseño
 
@@ -57,7 +46,7 @@
 
 ---
 
-##  Complicaciones
+## Complicaciones
 
 ### 1. Traducir Teoría a Código
 **Problema:** Poder pasar la teoría a código.
@@ -76,7 +65,7 @@
 
 ---
 
-##  Soluciones
+## Soluciones
 
 ### Clases Separadas
 Reorganizamos todos los ejercicios para usar clases independientes en lugar de clases internas:
@@ -113,7 +102,7 @@ Creamos ejercicios adicionales con:
 
 ---
 
-##  Aprendizajes
+## Aprendizajes
 
 ### Patrones de Diseño
 
@@ -179,6 +168,5 @@ Creamos ejercicios adicionales con:
 2. **Adapter:** Integración con APIs legacy, wrappers de librerías externas
 3. **Memento:** Editores de texto, juegos (save/load), sistemas de auditoría
 4. **SOLID:** Cualquier aplicación que requiera mantenibilidad y extensibilidad
->>>>>>> origin/master
 
 
