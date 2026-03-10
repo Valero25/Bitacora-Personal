@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+# Semana 2
+- **Ejercicios de casa:** [Agregar descripción aquí]
+[Agregar enlaces o descripciones de código aquí]
+
+## Código
+
+- **Ejercicios de clase:** [Agregar descripción aquí]
+
+## Evidencia Técnica
+=======
 # 📚 Semana 2
 
 ## ✅ Ejercicios Completados
@@ -168,5 +179,6 @@ Creamos ejercicios adicionales con:
 2. **Adapter:** Integración con APIs legacy, wrappers de librerías externas
 3. **Memento:** Editores de texto, juegos (save/load), sistemas de auditoría
 4. **SOLID:** Cualquier aplicación que requiera mantenibilidad y extensibilidad
+>>>>>>> origin/master
 
 
