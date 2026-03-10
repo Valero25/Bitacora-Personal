@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 dosw\bitacora\semana2\patrones\Ejercicio1.class
 dosw\bitacora\semana1\streams\Ejercicio5$Transaction.class
 dosw\bitacora\semana1\streams\Ejercicio5.class
@@ -27,6 +28,12 @@ dosw\bitacora\semana2\patrones\TextMemento.class
 dosw\bitacora\semana2\patrones\Caretaker.class
 dosw\bitacora\semana1\streams\Ejercicio2.class
 dosw\bitacora\semana2\patrones\DetailedPrinterAdapter.class
+=======
+dosw\bitacora\semana2\solid\Divide.class
+dosw\bitacora\semana2\solid\Calculator.class
+dosw\bitacora\semana2\solid\Operation.class
+dosw\bitacora\semana2\solid\Multiply.class
+>>>>>>> origin/master
 dosw\bitacora\semana2\solid\Subtract.class
 dosw\bitacora\semana2\solid\Add.class
 dosw\bitacora\semana2\solid\Ejercicio4.class
