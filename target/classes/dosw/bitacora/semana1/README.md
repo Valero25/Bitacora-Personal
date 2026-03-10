@@ -5,32 +5,32 @@
 ### Ejercicio 1: Filtrado de Números Pares
 - **Tema:** Streams API - Operación `filter()`
 - **Descripción:** Filtrar números pares de una lista usando streams
-- **Ubicación:** [streams/Ejercicio1.java](../../src/main/java/dosw/bitacora/semana1/streams/Ejercicio1.java)
+- **Ubicación:** [streams/Ejercicio1.java](streams/Ejercicio1.java)
 
 ### Ejercicio 2: Conversión a Mayúsculas
 - **Tema:** Streams API - Operación `map()`
 - **Descripción:** Convertir nombres a mayúsculas utilizando map
-- **Ubicación:** [streams/Ejercicio2.java](../../src/main/java/dosw/bitacora/semana1/streams/Ejercicio2.java)
+- **Ubicación:** [streams/Ejercicio2.java](streams/Ejercicio2.java)
 
 ### Ejercicio 3: Ordenamiento de Números
 - **Tema:** Streams API - Operación `sorted()`
 - **Descripción:** Ordenar números de manera ascendente
-- **Ubicación:** [streams/Ejercicio3.java](../../src/main/java/dosw/bitacora/semana1/streams/Ejercicio3.java)
+- **Ubicación:** [streams/Ejercicio3.java](streams/Ejercicio3.java)
 
 ### Ejercicio 4: Suma de Números
 - **Tema:** Streams API - Operación `reduce()`
 - **Descripción:** Calcular la suma total de una lista de números
-- **Ubicación:** [streams/Ejercicio4.java](../../src/main/java/dosw/bitacora/semana1/streams/Ejercicio4.java)
+- **Ubicación:** [streams/Ejercicio4.java](streams/Ejercicio4.java)
 
 ### Ejercicio 5: Filtrado de Nombres Largos
 - **Tema:** Streams API - Combinación de operaciones
 - **Descripción:** Filtrar nombres con más de 5 caracteres
-- **Ubicación:** [streams/Ejercicio5.java](../../src/main/java/dosw/bitacora/semana1/streams/Ejercicio5.java)
+- **Ubicación:** [streams/Ejercicio5.java](streams/Ejercicio5.java)
 
 ### Ejercicio 6: Procesamiento Completo
 - **Tema:** Streams API - Pipeline completo
 - **Descripción:** Combinar múltiples operaciones (filter, map, sorted, collect)
-- **Ubicación:** [streams/Ejercicio6.java](../../src/main/java/dosw/bitacora/semana1/streams/Ejercicio6.java)
+- **Ubicación:** [streams/Ejercicio6.java](streams/Ejercicio6.java)
 
 ---
 

@@ -1,10 +1,10 @@
-# Corte 2
+﻿# Corte 2
 
 Este corte agrupa las semanas del segundo período académico.
 
 ## Semanas incluidas
 
-> Próximamente — las semanas se irán agregando conforme avance el curso.
+> Próximamente  las semanas se irán agregando conforme avance el curso.
 
 | Semana | Rama              | Tema principal |
 |--------|-------------------|----------------|
