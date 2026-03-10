@@ -1,6 +1,6 @@
-# 📚 Semana 2
+﻿# Semana 2
 
-## ✅ Ejercicios Completados
+## Ejercicios Completados
 
 ### Patrones de Diseño
 
@@ -46,7 +46,7 @@
 
 ---
 
-## ⚠️ Complicaciones
+## Complicaciones
 
 ### 1. Traducir Teoría a Código
 **Problema:** Poder pasar la teoría a código.
@@ -65,7 +65,7 @@
 
 ---
 
-## 💡 Soluciones
+## Soluciones
 
 ### Clases Separadas
 Reorganizamos todos los ejercicios para usar clases independientes en lugar de clases internas:
@@ -83,14 +83,14 @@ Implementación correcta con tres componentes:
 ```java
 // Interfaz Operation permite agregar operaciones sin modificar Calculator
 public interface Operation {
-    double execute(double a, double b);
+ double execute(double a, double b);
 }
 
 // Calculator usa composición en lugar de múltiples métodos
 public class Calculator {
-    public double calculate(double a, double b, Operation operation) {
-        return operation.execute(a, b);
-    }
+ public double calculate(double a, double b, Operation operation) {
+ return operation.execute(a, b);
+ }
 }
 ```
 
@@ -102,7 +102,7 @@ Creamos ejercicios adicionales con:
 
 ---
 
-## 🎓 Aprendizajes
+## Aprendizajes
 
 ### Patrones de Diseño
 
@@ -138,29 +138,29 @@ Creamos ejercicios adicionales con:
 ### Buenas Prácticas de Java
 
 1. **Organización de Código:**
-   - Un archivo por clase pública
-   - Paquetes organizados por funcionalidad
-   - Nombres descriptivos y consistentes
+ - Un archivo por clase pública
+ - Paquetes organizados por funcionalidad
+ - Nombres descriptivos y consistentes
 
 2. **Streams API:**
-   - Uso de `filter()`, `map()`, `sorted()`, `collect()`
-   - Operaciones intermedias vs terminales
-   - Expresiones lambda concisas
+ - Uso de `filter()`, `map()`, `sorted()`, `collect()`
+ - Operaciones intermedias vs terminales
+ - Expresiones lambda concisas
 
 3. **Diseño de Interfaces:**
-   - Interfaces pequeñas y cohesivas
-   - Métodos con propósito claro
-   - Facilitan testing y extensibilidad
+ - Interfaces pequeñas y cohesivas
+ - Métodos con propósito claro
+ - Facilitan testing y extensibilidad
 
 ### Diferencias Entre Patrones Creacionales
 
 - **Factory Method vs Abstract Factory:**
-  - Factory Method: Un tipo de producto
-  - Abstract Factory: Familias de productos relacionados
+ - Factory Method: Un tipo de producto
+ - Abstract Factory: Familias de productos relacionados
 
 - **Factory vs Constructor:**
-  - Factory: Mayor flexibilidad, puede retornar subtipos
-  - Constructor: Siempre retorna instancia de esa clase exacta
+ - Factory: Mayor flexibilidad, puede retornar subtipos
+ - Constructor: Siempre retorna instancia de esa clase exacta
 
 ### Aplicaciones Prácticas
 
