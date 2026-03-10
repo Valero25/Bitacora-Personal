@@ -1,4 +1,3 @@
-﻿<<<<<<< HEAD
 # Bitácora Personal - Desarrollo de Software
 
 > _Un viaje de aprendizaje semana a semana, donde la teoría se convierte en código y los errores se transforman en experiencia._
@@ -113,4 +112,4 @@ src/             <- Codigo fuente Java organizado por semana
 - **Ejercicios resueltos**: Incluyen ejercicios de clase y casa, con evidencia en el README de cada semana.
 - **GitFlow**: Usa ramas feature para cada semana, mezcladas en `develop`.
 - **Cortes**: El repositorio esta dividido en `/corte1` y `/corte2` para organizar los periodos academicos.
->>>>>>> origin/master
+
