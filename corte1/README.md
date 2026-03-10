@@ -11,4 +11,4 @@ Este corte agrupa las semanas correspondientes al primer período académico.
 | 3      | `feature/semana3`     | Patrones avanzados (Bridge, Builder…) |
 | 5      | `feature/semana5`     | Gestión de proyectos con Jira / Scrum |
 
-> **Nota:** Cada semana tiene su propio README dentro de su carpeta y su código fuente en `src/main/java/dosw/bitacora/semanaX/`.
+> **Nota:** El código fuente de cada semana vive en `src/main/java/dosw/bitacora/semanaX/`.
