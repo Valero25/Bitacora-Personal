@@ -6,11 +6,11 @@ Este corte agrupa las semanas del segundo período académico.
 
 > Próximamente  las semanas se irán agregando conforme avance el curso.
 
-| Semana | Rama              | Tema principal |
-|--------|-------------------|----------------|
-| 6      | `feature/semana6` | Por definir    |
-| 7      | `feature/semana7` | Por definir    |
-| 8      | `feature/semana8` | Por definir    |
+| Semana | Rama                | Tema principal                              |
+|--------|---------------------|---------------------------------------------|
+| 1      | `feature/semana1`   | Programacion Funcional y Pruebas Unitarias  |
+| 2      | `feature/semana2`   | Por definir                                 |
+| 3      | `feature/semana3`   | Por definir                                 |
 
 ## Cómo agregar una semana nueva
 
