@@ -102,3 +102,11 @@ Turno
 - Identificación de requerimientos funcionales y no funcionales a partir del escenario propuesto.
 - Propuestas concretas para las inquietudes del cliente (balance y matchmaking).
 - Modelo de dominio inicial con las entidades principales del sistema.
+
+---
+
+## Enlaces de referencia
+
+- [ECI-SportLife](https://github.com/Valero25/ECI-SportLife.git)
+- [Tech-Cup-DOSW-2026-1](https://github.com/JoshQ10/Tech-Cup-DOSW-2026-1.git)
+- [Diagrama Lucidchart](https://lucid.app/lucidchart/d035776f-7c94-4150-9fb5-55bcacb674df/edit?invitationId=inv_ccfbc0fd-443f-4d4f-b7a1-53f4693b6fe2&page=RtlHv1IFQLn~#)
